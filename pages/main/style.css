@@ -395,7 +395,14 @@ background: #FE9013;
     text-align: center;
     color: #fe9013;
 text-align: center;}
+.normal{
+    color: #333B41;
+    font-style: normal;
+    font-weight: 400;
+font-size: 16px;
+line-height: 22,4px;
 
+}
     .Pick-and-feed a{
         color: #333B41;
         border-bottom: 1px solid;
@@ -409,24 +416,26 @@ text-align: center;}
     padding-bottom: 40px;
     text-align: justify;
 }
-    .form{display: grid;
-        grid-template-columns:1;
-        padding-top: 69px;
-        padding-bottom: 100px;
-        margin: 0 auto;
-        align-items: center;
-        width: 1159px;
-        background-color:  rgba(253, 253, 255, 0.52);
-        border-radius: 16px;
-        margin-top: 32px;
-        padding-left: 99px;
-        padding-bottom: 312px;
-    }
+.form{display: grid;
+    grid-template-columns:1;
+    padding-top: 69px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    align-items: center;
+    width: 1159px;
+    background-color:  rgba(253, 253, 255, 0.52);
+    border-radius: 16px;
+    margin-top: 32px;
+    padding-left: 99px;
+    padding-bottom: 407px;
+    max-height: 840px;
+}
     .bold{
 font-weight: 500;
 font-size: 16px;
 padding-bottom: 10px;
 line-height: 20.8px;
+color: #333B41;
     }
 
 
@@ -457,6 +466,67 @@ line-height: 20.8px;
 
 .Pick-and-feed .my_button{
     position: relative;
-   top: 16rem;
-   left: 21.5rem;
+   top: 21.5rem;
+   left: 20.5rem;
+}
+.icons{
+    position: absolute;
+}
+#icon1{
+    position: relative;
+    left:6.5rem;
+    top: -0.5rem;
+    border: 1px solid;
+    border-color: #E47209;
+    padding: 52px 29px;
+    border-radius: 5px;
+   background-color: #FFFFFF;
+}
+
+#icon2{
+    position: relative;
+    left:25rem;
+    top: -12rem;
+    border: 1px solid;
+    border-color: #E47209;
+    padding: 34.5px 40px;
+    border-radius: 5px;
+   background-color: #FFFFFF;
+}
+#icon3{
+    position: relative;
+    left:43rem;
+    top: -23.6rem;
+    border: 1px solid;
+    border-color: #E47209;
+    padding: 46px 20px;
+    border-radius: 5px;
+   background-color: #FFFFFF;
+}
+.ikons #p1{
+    position: relative;
+    top: 2rem;
+    left: 6.5rem;
+}
+.ikons #p2{
+    position: relative;
+    top: -9.8rem;
+    left: 25rem;
+}
+.ikons #p3{
+    position: relative;
+    top: -21.5rem;
+    left: 43.3rem;
+
+}
+
+.arrow1{
+    position: relative;
+    left: 19rem;
+    top: -32rem;
+}
+.arrow2{
+    position: relative;
+    left: 37rem;
+    top: -34.5rem;
 }
