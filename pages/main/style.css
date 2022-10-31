@@ -61,7 +61,7 @@ nav{
     padding: 2.5px 4.25px 1.5px 4.25px;
     border: 1.18841px solid #FFFFFF;
 border-radius: 2px;
-background-image: url(bamboo.png);
+background-image: url(../../assets/icons/bamboo.png);
 background-repeat: no-repeat;
 background-position: 0.6rem 1.5rem;
 margin-top: 13px;
@@ -92,7 +92,7 @@ padding-left:438px;
 }
 .Watch-your-animal{width: 100%;
     min-height: 700px;
-    background-image: url(GiantPanda.jpg);
+    background-image: url(../../assets/images/GiantPanda.jpg);
     background-size:cover;
     background-attachment:scroll;
 
@@ -166,7 +166,7 @@ line-height: 22px;
   margin-left: 38rem;
   width: 293px;
   height: 605px;
-  background: url(flower_foto1.png);
+  background: url(../../assets/images/flower_foto1.png);
   background-repeat: no-repeat;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -264,17 +264,17 @@ border-radius: 5px;
     padding-left: 16px;
 }
 .rec{
-    background-image: url(banana-bamboo_icon.png);
+    background-image: url(../../assets/icons/banana-bamboo_icon.png);
     background-repeat: no-repeat;
     background-position: 20rem 23rem;
 }
 .rec2{
-    background-image: url(banana-bamboo_icon.png);
+    background-image: url(../../assets/icons/banana-bamboo_icon.png);
     background-repeat: no-repeat;
     background-position: 20rem 23rem;
 }
 .rec1{
-    background-image: url(meet-fish_icon.png);
+    background-image: url(../../assets/icons/meet-fish_icon.png);
     background-repeat: no-repeat;
     background-position: 19.2rem 23rem;
 }
@@ -328,7 +328,7 @@ border-radius: 25px;
     position: absolute;
   width: 292px;
   height: 460px;
-    background: url(palm_foto.png);
+    background: url(../../assets/images/palm_foto.png);
     background-repeat: no-repeat;
 
 
@@ -339,7 +339,7 @@ border-radius: 25px;
     position: absolute;
   width: 292px;
   height: 460px;
-    background: url(strelitzia.png);
+    background: url(../../assets/images/strelitzia.png);
     background-repeat: no-repeat;
     ;
 
