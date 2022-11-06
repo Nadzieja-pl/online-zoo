@@ -801,3 +801,219 @@ line-height: 140%;
             background: url(../../assets/images/leav_foto.png);
             background-repeat: no-repeat;
         }
+        footer {position: absolute;
+            align-items: center;
+            top: 283.5rem;
+            height: 443px;
+            width: 100%;
+            background-color: #111115;
+          }
+
+          .logo1{
+            position: absolute;
+            top: 2rem;
+            left: 22.5rem;
+            text-align: center;
+    padding: 2.5px 4.25px 1.5px 4.25px;
+    border: 1.18841px solid #FFFFFF;
+border-radius: 2px;
+background-image: url(bamboo.png);
+background-repeat: no-repeat;
+background-position: 0.6rem 1.5rem;
+margin-top: 13px;
+          }
+          .font{
+            font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+          }
+
+          .right-side{position: relative;
+            top:9rem;
+            left: 16rem;
+            font-family: 'Roboto';
+            width: 240px;
+font-style: normal;
+font-weight: 100;
+font-size: 16px;
+line-height: 180%;
+color: #FFFFFF;
+          }
+          .right-side:hover{
+            content: "";
+            margin-bottom: 9px;
+            border-bottom: 1px solid ;
+            color: #4B9200;
+          }
+          .right-side:active{
+            content: "";
+            margin-bottom: 9px;
+            border-bottom: 1px solid ;
+            color: #4B9200;
+          }
+          .subtitle{font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 120%;
+            color: #FFFFFF;position: relative;
+            left: 23.5rem;
+            top: -5rem;
+            }
+           #font1{
+            font-family: 'Roboto';
+            width: 240px;
+font-style: normal;
+font-weight: 50;
+opacity: 90%;
+font-size: 16px;
+line-height: 190%;
+           }
+           .navigator1 li {
+            display: inline;
+            float:left;
+            padding: 29px 0 29px 58px;
+        }
+        .navigator1 li a:hover{
+            -webkit-background-clip:  text!important;
+            -webkit-text-fill-color: transparent;
+            background:linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%)
+        }
+        #active1{
+            -webkit-background-clip:  text!important;
+            -webkit-text-fill-color: transparent;
+            background:linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+        }
+        .navigator1{
+            position: relative;
+            top: 18.5rem;
+            left: 21rem;
+        }
+.font2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+  color: #ffffff;
+}
+.social{
+    position: absolute;
+    top: 17rem;
+    left:22.3rem;
+}
+.social li :hover,
+.social li :active {
+  background: #4B9200;;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.grey-circle{position: absolute;
+    width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: rgba(196, 196, 196, 0.5);
+}
+.social img{
+    position: relative;
+    right: 1.4rem;
+    top: 0.29rem;
+}
+.font2{position: relative;
+left: 2rem;
+}
+#yt{
+    left:-1.71rem;
+    top: 6px;
+}
+#twit{
+    right: 25.5px;
+    top: 7px;
+    }
+    #inst{
+        right: 25.5px;
+    }
+.moveleft{ position: relative;
+    left: -0.5rem;
+}
+.my-button3{
+    position: relative;
+    width: 298px;
+    height: 54px;
+top: 10.5em;
+left: 22.5rem;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);;
+        cursor: pointer;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+}
+.my-button3:hover{
+    background:
+    #E47209
+}
+.my-button3:active{
+    background:  #4B9200;
+}
+.my-button4{position: relative;
+    width: 129px;
+height: 42px;
+right: -25rem;
+top: -2rem;
+background: #F1F3F2;
+border: 1px solid #D31414;
+border-radius: 5px;
+}
+#col{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #D31414;
+
+}
+.border-foot{
+    position: absolute;
+    left: 72rem;
+    width: 228px;
+height: 42px;
+right: 359px;
+top: 83px;
+border-radius: 2px;
+background: #D31414;
+}
+footer form input{
+    position: relative;
+    width: 226px;
+height: 40px;
+    top: 0.7px;
+    right: 0.7px;
+    bottom: 0.7px;
+    left: 1px;
+    padding: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #bdbdbd;
+    background-color: #111115;
+    border-radius: 2px;
+  }
+  #foot{
+    position: relative;
+    top: 0rem;
+    left: 0;
+  }
