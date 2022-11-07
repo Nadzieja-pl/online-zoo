@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border:0;
+
+}
+
+.wrapper{
+    min-height: 100%;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+._container{
+    max-width: 1160px;
+    margin: 0px auto;
+width: 100%;
+
+}
+body{
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+
+a{text-decoration: none;}
+
+ul,
+li{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+.logo a{color: #FFFFFF;
+}
+.navigator li a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 22,4px;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    height: 80px;
+    background-color: #000000;
+    margin: 0 auto;
+
+}
+nav{
+    margin: 0 auto;
+}
+
+.logo{
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 2.5px 4.25px 1.5px 4.25px;
+    border: 1.18841px solid #FFFFFF;
+border-radius: 2px;
+background-image: url(../../assets/icons/bamboo.png);
+background-repeat: no-repeat;
+background-position: 0.6rem 1.5rem;
+margin-top: 13px;
+}
+
+#active1{
+    -webkit-background-clip:  text!important;
+    -webkit-text-fill-color: transparent;
+    background:linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+
+}
+#active{
+    margin-left: 78px;
+}
+.navigator li {
+    display: inline;
+    float:left;
+    padding: 29px 0 29px 58px;
+}
+#last{
+padding-left:438px;
+}
+
+.navigator li a:hover{
+    -webkit-background-clip:  text!important;
+    -webkit-text-fill-color: transparent;
+    background:linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%)}
+
+    #panda{
+        width: 100%;
+        min-height: 360px;
+background-image: url(../../assets/images/panda.jpg);
+position: relative;
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+    }
+
+    #reopen{min-width: 1600px;
+        width: 100%;
+        min-height: 1482px;
+        background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    }
+
+    h3{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 130%;
+color: #FFFFFF;
+position: absolute;
+height: 47px;
+align-items: center;
+left: calc(50% - 341px/2 - 409.5px);
+padding-top: 40px;}
+
+#reopen p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #FFFFFF;
+position: relative;
+left: calc(50% - 341px/2 - 409.5px);
+top: 92px
+}
+#donation{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    color: #FE9013;
+    left: calc(50% - 341px/2 - 409.5px);
+    position: relative;
+    padding-top: 40px;
+    top: 100px;
+}
+
+.pick-and-feed h2{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 120%;
+text-align: center;
+color: #FE9013;
+position: absolute;
+width: 463px;
+height: 58px;
+left: 342px;
+top: 40px;
+}
+
+.form{
+position: absolute;
+height: 964px;
+width: 1160px;
+left: 350px;
+right: 220px;
+top: 784px;
+background: rgba(255, 255, 255, 0.52);
+backdrop-filter: blur(2px);
+border-radius: 20px;
+}
+
+.pick-and-feed p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+color: #333B41;
+position: relative;
+top: 107px;
+left: 92px;
+margin-top: 15px;
+}
+#number{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 72px;
+line-height: 80%;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+}
+.with-panda p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 35px;
+text-align: center;
+color: #333B41;
+
+}
+.with-panda{
+    position: absolute;
+    top: 212px;
+    left: 215px;
+}
+.with-panda img{
+    position: absolute;
+    left: 335px;
+    top: 0px;
+
+}
+#x{
+    position: absolute;
+    left: 262px;
+    top: 137px;
+}
+.money{position: relative;
+    top: 500px;
+    background-color: #404950;
+    border-radius: 2px;
+    width: 976px;
+height: 27px;
+left: 92px;
+
+}
+.dollars{
+    position: relative;
+    bottom:6px;
+    left: 30px;
+}
+.money input[type='radio'] + label:not(:last-child){
+    margin-right: 45px;
+  }
+  
+#rectangle{position: absolute;
+    width: 915px;
+    height: 2px;
+    top:12px;
+    left: 30px;
+    background: #72828E;
+}
+
+.money label{position: relative;
+    top: 40px;
+    right:20px;
+    width: 30px;
+height: 36px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 140%;
+text-transform: uppercase;
+color: #333B41;
+}
+
+.pay input{
+    position: relative;
+    top:600px;
+    left:470px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    width: 268px;
+    height: 54px;
+    color: #929699;
+    background:transparent;
+    padding-left: 9px;
+    padding-right: 10px;
+}
+#choose-amount{
+    border: 1px solid #929699;
+}
+
+.once{position: relative;
+    top: 625px;
+    left: 500px
+}
+.once label{
+    padding-right: 50px;
+    padding-left: 5px;
+}
+.my_button{
+    position: absolute;
+    top: 795px;
+    left: 460px;
+width: 298px;
+height: 54px;
+padding-top: 15px;
+background: #FE9013;
+border-radius: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-style: normal;
+}
+
+.my_button:hover{
+    background:
+    #E47209
+}
+.my_button:active{
+    background:  #4B9200;
+}
+
+#last-p{
+    position: relative;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #333B41;
+top: 710px;
+left: 455px;
+}
+
+
+
+
+footer {position: absolute;
+    align-items: center;
+    top: 1922px;
+    height: 443px;
+    width: 100%;
+    background-color: #111115;
+  }
+
+  .logo1{
+    position: absolute;
+    top: 2rem;
+    left: 22.5rem;
+    text-align: center;
+padding: 2.5px 4.25px 1.5px 4.25px;
+border: 1.18841px solid #FFFFFF;
+border-radius: 2px;
+background-image: url(../../assets/icons/bamboo.png);
+background-repeat: no-repeat;
+background-position: 0.6rem 1.5rem;
+margin-top: 13px;
+  }
+  .font{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 19.0145px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+  }
+
+  .right-side{position: relative;
+    top:9rem;
+    left: 16rem;
+    font-family: 'Roboto';
+    width: 240px;
+font-style: normal;
+font-weight: 100;
+font-size: 16px;
+line-height: 180%;
+color: #FFFFFF;
+  }
+  .right-side:hover{
+    content: "";
+    margin-bottom: 9px;
+    border-bottom: 1px solid ;
+    color: #4B9200;
+  }
+  .right-side:active{
+    content: "";
+    margin-bottom: 9px;
+    border-bottom: 1px solid ;
+    color: #4B9200;
+  }
+  .subtitle{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;position: relative;
+    left: 23.5rem;
+    top: -5rem;
+    }
+   #font1{
+    font-family: 'Roboto';
+    width: 240px;
+font-style: normal;
+font-weight: 50;
+opacity: 90%;
+font-size: 16px;
+line-height: 190%;
+   }
+   .navigator1 li {
+    display: inline;
+    float:left;
+    padding: 29px 0 29px 58px;
+}
+.navigator1 li a:hover{
+    -webkit-background-clip:  text!important;
+    -webkit-text-fill-color: transparent;
+    background:linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%)
+}
+.navigator1{
+    position: relative;
+    top: 18.5rem;
+    left: 21rem;
+}
+.navigator1 li a{color: #FFFFFF;}
+.font2{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 200%;
+color: #ffffff;
+}
+.social{
+position: absolute;
+top: 17rem;
+left:22.3rem;
+}
+.social li :hover,
+.social li :active {
+background: #4B9200;;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.grey-circle{position: absolute;
+width: 26px;
+height: 26px;
+border-radius: 50%;
+background: rgba(196, 196, 196, 0.5);
+}
+.social img{
+position: relative;
+right: 1.4rem;
+top: 0.29rem;
+}
+.font2{position: relative;
+left: 2rem;
+}
+#yt{
+left:-1.71rem;
+top: 6px;
+}
+#twit{
+right: 25.5px;
+top: 7px;
+}
+#inst{
+right: 25.5px;
+}
+.moveleft{ position: relative;
+left: -0.5rem;
+}
+.my-button3{
+position: relative;
+width: 298px;
+height: 54px;
+top: 10.5em;
+left: 22.5rem;
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);;
+cursor: pointer;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+}
+.my-button3:hover{
+background:
+#E47209
+}
+.my-button3:active{
+background:  #4B9200;
+}
+.my-button4{position: relative;
+width: 129px;
+height: 42px;
+right: -25rem;
+top: -2rem;
+background: #F1F3F2;
+border: 1px solid #D31414;
+border-radius: 5px;
+}
+#col{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #D31414;
+
+}
+.border-foot{
+position: absolute;
+left: 72rem;
+width: 228px;
+height: 42px;
+right: 359px;
+top: 83px;
+border-radius: 2px;
+background: #D31414;
+}
+footer form input{
+position: relative;
+width: 226px;
+height: 40px;
+top: 0.7px;
+right: 0.7px;
+bottom: 0.7px;
+left: 1px;
+padding: 10px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #bdbdbd;
+background-color: #111115;
+border-radius: 2px;
+}
+#foot{
+position: relative;
+top: 0rem;
+left: 0;
+}
