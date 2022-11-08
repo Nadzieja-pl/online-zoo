@@ -168,7 +168,7 @@ top: 40px;
 position: absolute;
 height: 964px;
 width: 1160px;
-left: 350px;
+left: 220px;
 right: 220px;
 top: 784px;
 background: rgba(255, 255, 255, 0.52);
@@ -286,7 +286,7 @@ color: #333B41;
 
 .once{position: relative;
     top: 625px;
-    left: 500px
+    left: 500px;
 }
 .once label{
     padding-right: 50px;
@@ -348,7 +348,7 @@ footer {position: absolute;
   .logo1{
     position: absolute;
     top: 2rem;
-    left: 22.5rem;
+    left: 14rem;
     text-align: center;
 padding: 2.5px 4.25px 1.5px 4.25px;
 border: 1.18841px solid #FFFFFF;
@@ -422,7 +422,7 @@ line-height: 190%;
 .navigator1{
     position: relative;
     top: 18.5rem;
-    left: 21rem;
+    left: 22rem;
 }
 .navigator1 li a{color: #FFFFFF;}
 .font2{
@@ -436,7 +436,7 @@ color: #ffffff;
 .social{
 position: absolute;
 top: 17rem;
-left:22.3rem;
+left: 13.5rem;
 }
 .social li :hover,
 .social li :active {
@@ -480,7 +480,7 @@ position: relative;
 width: 298px;
 height: 54px;
 top: 10.5em;
-left: 22.5rem;
+left: 13.5rem;
 background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);;
 cursor: pointer;
 text-align: center;
@@ -502,7 +502,7 @@ background:  #4B9200;
 .my-button4{position: relative;
 width: 129px;
 height: 42px;
-right: -25rem;
+right: -23.5rem;
 top: -2rem;
 background: #F1F3F2;
 border: 1px solid #D31414;
@@ -519,7 +519,7 @@ color: #D31414;
 }
 .border-foot{
 position: absolute;
-left: 72rem;
+left: 63rem;
 width: 228px;
 height: 42px;
 right: 359px;
