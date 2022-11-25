@@ -764,6 +764,7 @@ input {
     background: #f5f7f6;
     border-color: transparent;
     border-radius: 5px;}
+
     input::-webkit-slider-thumb{
         -webkit-appearance: none;
         height: 6px;
@@ -771,6 +772,7 @@ input {
         border-radius: 5px;
         background: #fe9013;
         cursor: pointer;}
+
         .my_buttonrec{
             position: absolute;
         width: 298px;
@@ -800,7 +802,6 @@ line-height: 140%;
             position: absolute;
             top: 103rem;
             margin-left: 101rem;
-            position: absolute;
           width: 292px;
           height: 460px;
             background: url(../../assets/images/leav_foto.png);

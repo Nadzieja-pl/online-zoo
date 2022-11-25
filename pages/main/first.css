@@ -369,4 +369,60 @@ h3{
     font-weight: 400;
 
 }
+.Testimonials{
+    position: relative;
+    left: 30px;
+    top:-85px;
+    grid-template-columns: repeat(4, 293px);
+}
+#testiplast{
+    display: none;
+}
+.test-border4{
+    display: none;
+}
+.location1{
+    margin-left: -27px;
+}
+.location{
+    margin-left: -27px;
+}
+#user3{
+    margin-left: -29px;
+}
+
+#line_scroll{
+    position: relative;
+    top: -405px;
+    left: 299px;
+    width: 398px;
+}
+input {
+    width: 398px;
+}
+input::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 6px;
+    width: 75px;}
+.center h3{
+position: absolute;
+top: -115px;
+left: 400px;
+}
+.my_buttonrec{
+    position: relative;
+    top: -350px;
+    left: 30px;
+}
+.flower-leaf{
+    position: relative;
+    top: -449px;
+    left: 788px;
+    margin-left: 0;
+  width: 292px;
+  height: 460px;
+    background: url(../../assets/images/leav_foto.png);
+    background-repeat: no-repeat;
+}
+
 }
