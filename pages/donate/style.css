@@ -107,7 +107,7 @@ background-size:cover;
 background-position: center;
     }
 
-    #reopen{min-width: 1600px;
+    #reopen{width: 1160px;
         width: 100%;
         min-height: 1482px;
         background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
@@ -126,7 +126,7 @@ align-items: center;
 left: calc(50% - 341px/2 - 409.5px);
 padding-top: 40px;}
 
-#reopen p{
+.reopen{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -135,20 +135,22 @@ line-height: 140%;
 color: #FFFFFF;
 position: relative;
 left: calc(50% - 341px/2 - 409.5px);
-top: 92px
+top: 92px;
+width:1160px;
 }
-#donation{font-family: 'Roboto';
+#donation{
+    position: relative;
+    padding-top: 40px;
+    top: 100px;
+}
+#donation h3{
+font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 130%;
     color: #FE9013;
-    left: calc(50% - 341px/2 - 409.5px);
-    position: relative;
-    padding-top: 40px;
-    top: 100px;
 }
-
 .pick-and-feed h2{
     font-family: 'Roboto';
 font-style: normal;
@@ -198,7 +200,7 @@ text-align: center;
 text-transform: uppercase;
 color: #000000;
 }
-.with-panda p{
+.diet{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -206,7 +208,9 @@ font-size: 16px;
 line-height: 35px;
 text-align: center;
 color: #333B41;
-
+position: relative;
+top: 110px;
+left: 30px;
 }
 .with-panda{
     position: absolute;
@@ -219,10 +223,10 @@ color: #333B41;
     top: 0px;
 
 }
-#x{
-    position: absolute;
-    left: 262px;
-    top: 137px;
+.x{
+    position: relative;
+    left: -70px;
+    top: 27px;
 }
 .money{position: relative;
     top: 500px;
@@ -242,7 +246,8 @@ left: 92px;
     margin-right: 45px;
   }
   
-#rectangle{position: absolute;
+.rectangle{
+    position: absolute;
     width: 915px;
     height: 2px;
     top:12px;

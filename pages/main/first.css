@@ -456,7 +456,6 @@ left: 31px;
     left: 31px;
     top: 161px;
     border-radius: 5px;
-    
 }
 .navigator1{
     left: 261px;
@@ -476,7 +475,6 @@ left: 31px;
     margin-bottom: 9px;
     border-bottom: 0;
   }
-  
   .subtitle{
     position: absolute;
     top: 40px;
@@ -498,9 +496,6 @@ left: 31px;
     font-weight: 400;
 font-size: 16px;
 line-height: 140%;
-/* or 22px */
-
-
 color: #000000;
 }
 }
