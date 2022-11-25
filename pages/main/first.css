@@ -10,6 +10,7 @@
     .wrapper{
         min-width: 940px;
         margin: 0px auto;
+        overflow: hidden;
     width: 100%;}
     .logo{
         position: absolute;
@@ -413,6 +414,7 @@ left: 400px;
     position: relative;
     top: -350px;
     left: 30px;
+    border-radius: 5px;
 }
 .flower-leaf{
     position: relative;
@@ -425,4 +427,80 @@ left: 400px;
     background-repeat: no-repeat;
 }
 
+footer {position:absolute;
+    align-items: center;
+    top: 4080px;
+    bottom: 0;
+    height: 443px;
+    width: 100%;
+
+}
+section .container{
+    height: 1079px;
+    overflow: hidden;
+
+}
+.logo1{
+    position: absolute;
+
+top: 41px;
+left: 31px;
+}
+.social{
+    position: absolute;
+    top: 264px;
+    left: 31px;
+}
+.my-button3{
+    position: absolute;
+    left: 31px;
+    top: 161px;
+    border-radius: 5px;
+    
+}
+.navigator1{
+    left: 261px;
+    top: 340px;
+}
+
+.right-side{
+    position: absolute;
+    top: 167px;
+    left: 360px;
+    width: 220px;
+}
+.navigator1 li{
+    padding-left: 48px;
+}.right-side:hover{
+    text-decoration: none;
+    margin-bottom: 9px;
+    border-bottom: 0;
+  }
+  
+  .subtitle{
+    position: absolute;
+    top: 40px;
+    left: 571px;
+  }
+  footer form input{
+    position: absolute;
+    left: -578px;
+    width: 226px;
+    border:0.7px solid #FE9013;
+}
+.my-button4{
+    position: relative;
+    left: 430px;
+    top: 83px;
+    border: 1px solid black;
+}
+#col{
+    font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #000000;
+}
 }
