@@ -1,0 +1,149 @@
+@media (max-width: 1000px){
+    *,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+    .wrapper{
+        min-width: 940px;
+        margin: 0px auto;
+    width: 100%;}
+    .logo{
+        position: absolute;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19.0145px;
+        line-height: 23px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 2.5px 4.25px 1.5px 4.25px;
+        border: 1.18841px solid #FFFFFF;
+    border-radius: 2px;
+    background-image: url(../../assets/icons/bamboo.png);
+    background-repeat: no-repeat;
+    background-position: 0.6rem 1.5rem;
+    margin-top: 13px;
+        left: 30px;
+    }
+    body{
+        min-width: 940px;
+        margin: 0px auto;
+    width: 100%;
+    }
+    #last{
+        position: absolute;
+        right: 30px;
+        }
+        #active{
+            padding-left: 90px;
+        }
+        .navigator li{
+            padding-left: 48px;
+        }
+        .Watch-your-animal{
+            position: absolute;
+            width: 100%;
+    min-height: 504px;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+      }
+        #phrase{
+            position: absolute;
+            width: 400.25px;
+            height: 320px;
+            left: calc(50% - 400.25px/2 + 214.12px);
+            top: 42.8px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 85px;
+            line-height: 75%;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        .circle{
+            position: relative;
+            background-image: url(../../assets/images/yellow.png);
+left: calc(50% - 367px/2 + 139.5px);
+top: -20px;
+        width: 367px;
+        height: 367px;
+}
+.my_button{
+position: absolute;
+width: 298px;
+height: 54px;
+left: calc(50% - 298px/2 + 214px);
+top: 419px;
+}
+.left{background-image: url(../../assets/images/bamboo-cap1.png);
+    position: relative;
+    width: 455px;
+height: 408px;
+left: 30px;
+top: 482px;
+}
+h2{
+    position: absolute;
+    height: 116px;
+    left: 486px;
+    right: 0px;
+    top: 693px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #333B41;
+    padding-left: 31px;
+    }
+    #first_p{
+        position: absolute;
+height: 42px;
+width: 486px;
+top: 810px;
+left: 521px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+color: #333B41;
+    }
+    h4{
+        position: relative;
+        height: 29px;
+        width: 486px;
+        right: 241px;
+        top: 629px;
+    right: 175px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        color: #333B41;
+        }
+        #second_p{
+            position: absolute;
+            height: 132px;
+            width: 454px;
+            right: 10px;
+            top: 945px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            color: #333B41;
+            }
+    .Pets{
+        margin-top: 1000px;
+    }
+}

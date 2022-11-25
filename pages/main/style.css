@@ -17,6 +17,7 @@
     max-width: 1159px;
     margin: 0px auto;
 width: 100%;
+
 }
 body{
     font-family: "Roboto", sans-serif;
@@ -98,7 +99,7 @@ padding-left:438px;
     background-attachment:scroll;
 
 }
-#circle{
+.circle{
     position: absolute;
 width: 465px;
 height: 465px;
@@ -154,6 +155,7 @@ line-height: 22px;
 .left{
   height: 403px;
   width: 609px;
+  background-image: url(../../assets/images/bamboo-cap.jpg);
 }
 .Backstage{
     display: grid;
