@@ -12,7 +12,7 @@
     min-width: 940px;
     margin: 0px auto;
     overflow: hidden;
-width: 100%;}
+width: 999px;}
 .logo{
     position: absolute;
     font-family: 'Roboto';
@@ -35,6 +35,7 @@ body{
     min-width: 940px;
     margin: 0px auto;
 width: 100%;
+width: 999px;
 }
 #last{
     position: absolute;
@@ -61,7 +62,7 @@ font-weight: 400;
 font-size: 36px;
 line-height: 130%;
     }
-    #reopen{width: 1000px;
+    #reopen{width: 999pxpx;
         width: 100%;
         min-height: 1482px;
         background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
@@ -173,5 +174,75 @@ top: 510px;  }
     position: relative;
    top: -230px;
    left: -120px;
+}
+footer {position:absolute;
+    top: 1800px;
+    left: 0;
+    height: 443px;
+    width: 999px;
+}
+section .container{
+    height: 1079px;
+    overflow: hidden;
+
+}
+.logo1{
+    position: absolute;
+
+top: 41px;
+left: 31px;
+}
+.social{
+    position: absolute;
+    top: 264px;
+    left: 31px;
+}
+.my-button3{
+    position: absolute;
+    left: 31px;
+    top: 161px;
+    border-radius: 5px;
+}
+.navigator1{
+    left: 261px;
+    top: 340px;
+}
+
+.right-side{
+    position: absolute;
+    top: 167px;
+    left: 360px;
+    width: 220px;
+}
+.navigator1 li{
+    padding-left: 48px;
+}
+.right-side:hover{
+    text-decoration: none;
+    margin-bottom: 9px;
+    border-bottom: 0;
+  }
+  .subtitle{
+    position: absolute;
+    top: 40px;
+    left: 571px;
+  }
+  footer form input{
+    position: absolute;
+    left: -438px;
+    width: 226px;
+    border:0.7px solid #FE9013;
+}
+.my-button4{
+    position: relative;
+    left: 430px;
+    top: 83px;
+    border: 1px solid black;
+}
+#col{
+    font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #000000;
 }
 }

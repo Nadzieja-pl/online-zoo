@@ -339,15 +339,12 @@ color: #333B41;
 top: 710px;
 left: 455px;
 }
-
-
-
-
-footer {position: absolute;
+footer{
+    position: absolute;
     align-items: center;
-    top: 1922px;
+    top: 120rem;
     height: 443px;
-    width: 100%;
+    width: 1599px;
     background-color: #111115;
   }
 
@@ -476,7 +473,7 @@ right: 25.5px;
 top: 7px;
 }
 #inst{
-right: 25.5px;
+right: 26px;
 }
 .moveleft{ position: relative;
 left: -0.5rem;
