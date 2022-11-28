@@ -155,4 +155,23 @@ display: none;
     left: 760px;
     top: 3.2px;
   }
+  #choose{
+    position: relative;
+left: 350px;
+top: 510px;  }
+#once{
+    position: relative;
+    left: 380px;
+    top: 540px;
+}
+#last-p p{
+    position: relative;
+    left: 335px;
+    top: 610px;
+}
+#feed{
+    position: relative;
+   top: -230px;
+   left: -120px;
+}
 }
