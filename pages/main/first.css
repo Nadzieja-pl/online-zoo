@@ -1,0 +1,501 @@
+@media (max-width: 1000px){
+    *,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+    .wrapper{
+        min-width: 940px;
+        margin: 0px auto;
+        overflow: hidden;
+    width: 100%;}
+    .logo{
+        position: absolute;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19.0145px;
+        line-height: 23px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 2.5px 4.25px 1.5px 4.25px;
+        border: 1.18841px solid #FFFFFF;
+    border-radius: 2px;
+    background-image: url(../../assets/icons/bamboo.png);
+    background-repeat: no-repeat;
+    background-position: 0.6rem 1.5rem;
+    margin-top: 13px;
+        left: 30px;
+    }
+    body{
+        min-width: 940px;
+        margin: 0px auto;
+    width: 100%;
+    }
+    #last{
+        position: absolute;
+        right: 30px;
+        }
+        #active{
+            padding-left: 90px;
+        }
+        .navigator li{
+            padding-left: 48px;
+        }
+        .Watch-your-animal{
+            position: absolute;
+            width: 100%;
+    min-height: 504px;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+      }
+        #phrase{
+            position: absolute;
+            width: 400.25px;
+            height: 320px;
+            left: calc(50% - 400.25px/2 + 214.12px);
+            top: 42.8px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 85px;
+            line-height: 75%;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        .circle{
+            position: relative;
+            background-image: url(../../assets/images/yellow.png);
+left: calc(50% - 367px/2 + 139.5px);
+top: -20px;
+        width: 367px;
+        height: 367px;
+}
+.my_button{
+position: absolute;
+width: 298px;
+height: 54px;
+left: calc(50% - 298px/2 + 214px);
+top: 419px;
+}
+.left{background-image: url(../../assets/images/bamboo-cap1.png);
+    position: relative;
+    width: 455px;
+height: 408px;
+left: 30px;
+top: 482px;
+}
+h2{
+    position: absolute;
+    height: 116px;
+    left: 486px;
+    right: 0px;
+    top: 693px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #333B41;
+    padding-left: 31px;
+    }
+    #first_p{
+        position: absolute;
+height: 42px;
+width: 486px;
+top: 810px;
+left: 521px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+color: #333B41;
+    }
+    h4{
+        position: relative;
+        height: 29px;
+        width: 486px;
+        right: 241px;
+        top: 629px;
+    right: 175px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 120%;
+        color: #333B41;
+        }
+        #second_p{
+            position: absolute;
+            height: 132px;
+            width: 454px;
+            right: 10px;
+            top: 945px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            color: #333B41;
+            }
+    .Pets{
+        padding-left: 30px;
+        margin-top: 650px;
+        display: grid;
+        grid-template-columns: repeat(3, 294px);
+        padding-bottom: 234px;
+        grid-template-rows: repeat(2, 352px);
+        column-gap: 29px;
+        row-gap: 95px;
+    }
+    .Pets img{
+        width: 292px;
+        height: 294px;
+    }
+    .circle_l{
+        position: relative;
+        left: 320px;
+        top: -527px;
+        width: 62px;
+        height: 62px;
+        border-radius: 50%;
+    background: #FE9013;
+    }
+    .circle_l img{
+        position: absolute;
+        left: 22px;
+        top: 25px;
+
+        width: 20px;
+        height: 16px;
+    }
+    .circle_r{
+        position: relative;
+        left: 231px;
+        width: 62px;
+        top: -527px;
+        height: 62px;
+        border-radius: 50%;
+    background: #FE9013;
+    }
+    .circle_r img{
+        position: relative;
+        top: 4px;
+        height: 16px;
+        width: 20px;
+    }
+    .rec{
+        background-image: url(../../assets/icons/banana-bamboo_icon.png);
+        background-position: 240px 300px;
+        background-repeat: no-repeat;
+    }
+    .rec2{
+        background-image: url(../../assets/icons/banana-bamboo_icon.png);
+        background-repeat: no-repeat;
+        background-position: 240px 300px;}
+        .rec1{
+            background-image: url(../../assets/icons/meet-fish_icon.png);
+            background-repeat: no-repeat;
+            background-position: 240px 300px;
+        }
+        .my_button1{
+            position: absolute;
+            width: 298px;
+            height: 54px;
+            left: calc(50% - 298px/2);
+            top: 2134px;
+}
+.flower1{ position: absolute;
+    width: 386px;
+    height: 202px;
+    left: 350px;
+    top: 2126px;
+    background: url(../../assets/images/palmnew.png);
+    background-repeat: no-repeat;
+
+
+}
+.flower2{ position: absolute;
+    width: 241px;
+    height: 180px;
+    right: 0;
+    top: 2148px;
+    background: url(../../assets/images/strel.png);
+    background-repeat: no-repeat;
+
+}
+.box{position: absolute;
+    padding-top: 41px;
+    width: 100%;
+    max-height: 876px;
+    margin-top: -140px;
+}
+.form{
+    position: relative;
+    top: -40px;
+    max-width: 940px;
+    align-items: center;
+    border-radius: 16px;
+    margin-top: 32px;
+    max-height: 796px;
+}
+.Pick-and-feed h2 {
+    position: absolute;
+width: 563px;
+height: 58px;
+left: 210px;
+top: 60px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 120%;
+}
+.form h4{
+    position: absolute;
+    height: 29px;
+    width: 843px;
+    left: 50px;
+    right: 78px;
+    top: 68px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+}
+.bold{
+    position: absolute;
+height: 42px;
+left: 50px;
+right: 108px;
+top: 175px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 130%;
+}
+.normal{
+    position: absolute;
+height: 42px;
+left: 50px;
+right: 75px;
+top: 239px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+}
+h3{
+    position: absolute;
+    width: 209px;
+    height: 47px;
+    left:265px;
+    top: 191px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+}
+.ikons{
+    width: 600px;
+    margin-top: 225px;
+    display: grid;
+    grid-template-columns: repeat(3, 168px);
+    column-gap: 130px;
+    margin-left: -17px;
+}
+#icon1{ position: relative;
+    top: 0;
+    left:0;
+
+}
+#icon2{
+    position: relative;
+    top: 0;
+    left:0;
+}
+#icon3{
+    position: relative;
+    top: 0;
+    left:0;
+}
+.arrow1{
+    position: relative;
+   top: -140px;
+   left: 180px;
+}
+.arrow2{
+    position: relative;
+    top: -178px;
+    left: 480px;
+}
+.Pick-and-feed .my_button{
+    position:relative;
+   top: 560px;
+   left: 220px;
+}
+.ikons #p1{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-top: 35px;
+    color: #333B41;
+    font-weight: 400;
+}
+.ikons #p2{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-top: 35px;
+    color: #333B41;
+    font-weight: 400;
+}
+.ikons #p3{
+    position: relative;
+    top: -0;
+    left: 0;
+    padding-top: 35px;
+    color: #333B41;
+    font-weight: 400;
+
+}
+.Testimonials{
+    position: relative;
+    left: 30px;
+    top:-85px;
+    grid-template-columns: repeat(4, 293px);
+}
+#testiplast{
+    display: none;
+}
+.test-border4{
+    display: none;
+}
+.location1{
+    margin-left: -27px;
+}
+.location{
+    margin-left: -27px;
+}
+#user3{
+    margin-left: -29px;
+}
+
+#line_scroll{
+    position: relative;
+    top: -405px;
+    left: 299px;
+    width: 398px;
+}
+input {
+    width: 398px;
+}
+input::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 6px;
+    width: 75px;}
+.center h3{
+position: absolute;
+top: -115px;
+left: 400px;
+}
+.my_buttonrec{
+    position: relative;
+    top: -350px;
+    left: 30px;
+    border-radius: 5px;
+}
+.flower-leaf{
+    position: relative;
+    top: -449px;
+    left: 788px;
+    margin-left: 0;
+  width: 292px;
+  height: 460px;
+    background: url(../../assets/images/leav_foto.png);
+    background-repeat: no-repeat;
+}
+
+footer {position:absolute;
+    align-items: center;
+    top: 4080px;
+    bottom: 0;
+    height: 443px;
+    width: 100%;
+
+}
+section .container{
+    height: 1079px;
+    overflow: hidden;
+
+}
+.logo1{
+    position: absolute;
+
+top: 41px;
+left: 31px;
+}
+.social{
+    position: absolute;
+    top: 264px;
+    left: 31px;
+}
+.my-button3{
+    position: absolute;
+    left: 31px;
+    top: 161px;
+    border-radius: 5px;
+}
+.navigator1{
+    left: 261px;
+    top: 340px;
+}
+
+.right-side{
+    position: absolute;
+    top: 167px;
+    left: 360px;
+    width: 220px;
+}
+.navigator1 li{
+    padding-left: 48px;
+}.right-side:hover{
+    text-decoration: none;
+    margin-bottom: 9px;
+    border-bottom: 0;
+  }
+  .subtitle{
+    position: absolute;
+    top: 40px;
+    left: 571px;
+  }
+  footer form input{
+    position: absolute;
+    left: -578px;
+    width: 226px;
+    border:0.7px solid #FE9013;
+}
+.my-button4{
+    position: relative;
+    left: 430px;
+    top: 83px;
+    border: 1px solid black;
+}
+#col{
+    font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #000000;
+}
+}

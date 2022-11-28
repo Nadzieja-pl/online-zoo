@@ -17,6 +17,7 @@
     max-width: 1159px;
     margin: 0px auto;
 width: 100%;
+
 }
 body{
     font-family: "Roboto", sans-serif;
@@ -98,7 +99,7 @@ padding-left:438px;
     background-attachment:scroll;
 
 }
-#circle{
+.circle{
     position: absolute;
 width: 465px;
 height: 465px;
@@ -154,6 +155,7 @@ line-height: 22px;
 .left{
   height: 403px;
   width: 609px;
+  background-image: url(../../assets/images/bamboo-cap.jpg);
 }
 .Backstage{
     display: grid;
@@ -350,7 +352,7 @@ border-radius: 25px;
     height: 62px;
     border-radius: 50%;
     position: absolute;
-    left: 17rem;
+    left: 125px;
 top: 119rem;
 background: #FE9013;
 }
@@ -359,7 +361,7 @@ background: #FE9013;
     height: 62px;
     border-radius: 50%;
     position: absolute;
-    left: 96rem;
+    left: 1390px;
 top: 119rem;
 background: #FE9013;
 }
@@ -390,12 +392,14 @@ background: #FE9013;
     width: 16px;}
 
 .Pick-and-feed h2 {
+    display:flex;
      position: absolute;
      top: 7rem;
-     right: 43rem;
-    text-align: center;
+    align-items: center;
     color: #fe9013;
-text-align: center;}
+    width: 500px;
+    left: 590px;
+}
 .normal{
     color: #333B41;
     font-style: normal;
@@ -461,7 +465,7 @@ color: #333B41;
     font-weight: 400;
     text-align: center;
     position: relative;
-    right: 3.5rem;
+
     color: #333B41;
 }
 
@@ -539,7 +543,7 @@ color: #333B41;
     height: 575px;
     text-align: center;
 }
-.Testimonials{left: 360px;
+.Testimonials{left: 210px;
     position: absolute;
     align-items: center;
     display: grid;
@@ -738,7 +742,7 @@ position: absolute;
 }
 #line_scroll{
 position: relative;
-    left: 40rem;
+    left: 490px;
     top: -260px;
     width: 599px;
     height: 8px;
@@ -760,6 +764,7 @@ input {
     background: #f5f7f6;
     border-color: transparent;
     border-radius: 5px;}
+
     input::-webkit-slider-thumb{
         -webkit-appearance: none;
         height: 6px;
@@ -767,11 +772,12 @@ input {
         border-radius: 5px;
         background: #fe9013;
         cursor: pointer;}
+
         .my_buttonrec{
             position: absolute;
         width: 298px;
         height: 54px;
-        left: 22.5rem;
+        left: 210px;
         top: 1710px;
         background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);;
             cursor: pointer;
@@ -796,7 +802,6 @@ line-height: 140%;
             position: absolute;
             top: 103rem;
             margin-left: 101rem;
-            position: absolute;
           width: 292px;
           height: 460px;
             background: url(../../assets/images/leav_foto.png);
@@ -813,7 +818,7 @@ line-height: 140%;
           .logo1{
             position: absolute;
             top: 2rem;
-            left: 22.5rem;
+            left: 210px;
             text-align: center;
     padding: 2.5px 4.25px 1.5px 4.25px;
     border: 1.18841px solid #FFFFFF;
@@ -862,7 +867,7 @@ color: #FFFFFF;
             font-size: 24px;
             line-height: 120%;
             color: #FFFFFF;position: relative;
-            left: 23.5rem;
+            left: 520px;
             top: -5rem;
             }
            #font1{
@@ -892,7 +897,7 @@ line-height: 190%;
         .navigator1{
             position: relative;
             top: 18.5rem;
-            left: 21rem;
+           left: 400px;
         }
 .font2{
     font-family: 'Roboto';
@@ -905,7 +910,7 @@ line-height: 190%;
 .social{
     position: absolute;
     top: 17rem;
-    left:22.3rem;
+    left:210px;
 }
 .social li :hover,
 .social li :active {
@@ -949,7 +954,7 @@ left: 2rem;
     width: 298px;
     height: 54px;
 top: 10.5em;
-left: 22.5rem;
+left: 210px;
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);;
         cursor: pointer;
         text-align: center;

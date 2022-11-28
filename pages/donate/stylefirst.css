@@ -1,0 +1,248 @@
+@media (max-width: 1000px){
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border:0;
+
+}
+.wrapper{
+    min-width: 940px;
+    margin: 0px auto;
+    overflow: hidden;
+width: 999px;}
+.logo{
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 2.5px 4.25px 1.5px 4.25px;
+    border: 1.18841px solid #FFFFFF;
+border-radius: 2px;
+background-image: url(../../assets/icons/bamboo.png);
+background-repeat: no-repeat;
+background-position: 0.6rem 1.5rem;
+margin-top: 13px;
+    left: 30px;
+}
+body{
+    min-width: 940px;
+    margin: 0px auto;
+width: 100%;
+width: 999px;
+}
+#last{
+    position: absolute;
+    right: 30px;
+    }
+    #active{
+        padding-left: 90px;
+    }
+    .navigator li{
+        padding-left: 48px;
+    }
+    #panda{
+        height: 390px;
+    }
+
+    .need-help h3{
+        position: absolute;
+        left: 30px;
+        width: 778px;
+height: 94px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 130%;
+    }
+    #reopen{width: 999pxpx;
+        width: 100%;
+        min-height: 1482px;
+        background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    }
+    #reopen1{
+        width: 930px;
+    position: relative;
+    top: 160px;
+    left: 31px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+#form{
+    width: 940px;
+    height: 918px;
+    position: absolute;
+    left: 30px;
+    top: 855px;
+}
+#donation h3{
+    position: absolute;
+    left: 30px;
+    top: 65px;
+}
+#form h2{
+    position: relative;
+    top: 20px;
+    left: 231px;
+}
+#form p{
+    position: relative;
+    top: 10px;
+    left: 47px;
+}
+#number{
+    position: relative;
+    top: 50px;
+    left: -10px;
+}
+#x{
+    position: relative;
+    left: -185px;
+    top: -20px;
+}
+#pand{
+    position: relative;
+    left: -100px;
+    top: -150px;
+}
+#diet{
+    position: relative;
+    top: 60px;
+    left: -25px;
+}
+#rectangle{
+    width: 770px;
+    position: relative;
+    left: 15px;
+    top: 13px;
+}
+#money{
+    width: 810px;
+    position: relative;
+    left: 65px;
+    top: 410px;
+}
+#one{
+display: none;
+}
+#andone{
+    display: none;
+}
+#money input[type='radio'] + label:not(:last-child){
+    margin-right: 45px;
+
+    width:785px;
+  }
+  #money input{
+    left: 15px;
+  }
+  #money label{
+    position: relative;
+   left: -30px;
+  }
+  #money :last-child{
+    position: relative;
+    left: 760px;
+    top: 3.2px;
+  }
+  #choose{
+    position: relative;
+left: 350px;
+top: 510px;  }
+#once{
+    position: relative;
+    left: 380px;
+    top: 540px;
+}
+#last-p p{
+    position: relative;
+    left: 335px;
+    top: 610px;
+}
+#feed{
+    position: relative;
+   top: -230px;
+   left: -120px;
+}
+footer {position:absolute;
+    top: 1800px;
+    left: 0;
+    height: 443px;
+    width: 999px;
+}
+section .container{
+    height: 1079px;
+    overflow: hidden;
+
+}
+.logo1{
+    position: absolute;
+
+top: 41px;
+left: 31px;
+}
+.social{
+    position: absolute;
+    top: 264px;
+    left: 31px;
+}
+.my-button3{
+    position: absolute;
+    left: 31px;
+    top: 161px;
+    border-radius: 5px;
+}
+.navigator1{
+    left: 261px;
+    top: 340px;
+}
+
+.right-side{
+    position: absolute;
+    top: 167px;
+    left: 360px;
+    width: 220px;
+}
+.navigator1 li{
+    padding-left: 48px;
+}
+.right-side:hover{
+    text-decoration: none;
+    margin-bottom: 9px;
+    border-bottom: 0;
+  }
+  .subtitle{
+    position: absolute;
+    top: 40px;
+    left: 571px;
+  }
+  footer form input{
+    position: absolute;
+    left: -438px;
+    width: 226px;
+    border:0.7px solid #FE9013;
+}
+.my-button4{
+    position: relative;
+    left: 430px;
+    top: 83px;
+    border: 1px solid black;
+}
+#col{
+    font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #000000;
+}
+}
